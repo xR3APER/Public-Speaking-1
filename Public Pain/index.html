@@ -1,124 +1,62 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-      name="description"
-      content="Learn how to build a simple, responsive website using only HTML and CSS."
-    >
-    <title>HTML + CSS — Your first website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>WD Lesson 2.8A Practical</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#home" aria-label="HTML and CSS home">
-        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
-        <span>HTML <span class="brand-plus">+</span> CSS</span>
-      </a>
-      <nav aria-label="Main navigation">
-        <a href="#how-it-works">How it works</a>
-        <a href="#example">Code example</a>
-        <a class="nav-cta" href="#get-started">Start learning <span aria-hidden="true">↗</span></a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> Your first website, made simple</p>
-          <h1>Build a website<br>with just <span>HTML &amp; CSS.</span></h1>
-          <p class="hero-description">
-            You don’t need to learn every coding language to get started. HTML
-            gives your page its structure; CSS makes it look the way you want.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="#how-it-works">See how it works <span aria-hidden="true">→</span></a>
-            <a class="text-link" href="#example">View the code</a>
-          </div>
-          <p class="no-js-note"><span aria-hidden="true">✓</span> No JavaScript required for this website.</p>
-        </div>
-
-        <div class="hero-art" aria-label="A visual preview of HTML structure and CSS styling">
-          <div class="window-bar">
-            <span></span><span></span><span></span>
-            <p>your-first-site.html</p>
-          </div>
-          <div class="preview-content">
-            <span class="preview-label">MADE WITH TWO LANGUAGES</span>
-            <div class="preview-title">Hello,<br><span>world!</span></div>
-            <div class="preview-line"></div>
-            <div class="preview-button">My first page <span aria-hidden="true">→</span></div>
-          </div>
-          <div class="language-card html-card"><span class="language-icon">&lt;/&gt;</span><span><strong>HTML</strong><small>Page structure</small></span></div>
-          <div class="language-card css-card"><span class="language-icon">✳</span><span><strong>CSS</strong><small>Page style</small></span></div>
-        </div>
-      </section>
-
-      <section class="approach" id="how-it-works">
-        <div class="section-heading">
-          <p class="eyebrow">Two tools. One website.</p>
-          <h2>Give your page a structure,<br><span>then make it yours.</span></h2>
-        </div>
-        <div class="steps">
-          <article class="step-card">
-            <span class="step-number">01 / HTML</span>
-            <h3>Add the content</h3>
-            <p>HTML (HyperText Markup Language) organizes your page into headings, paragraphs, links, images, and more.</p>
-          </article>
-          <article class="step-card">
-            <span class="step-number">02 / CSS</span>
-            <h3>Style the page</h3>
-            <p>CSS (Cascading Style Sheets) controls colors, fonts, spacing, layout, and how the page adapts to screens.</p>
-          </article>
-          <article class="step-card">
-            <span class="step-number">03 / YOUR SITE</span>
-            <h3>Put them together</h3>
-            <p>Link your stylesheet to your HTML file. Open the HTML file in a browser to see your website.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="code-example" id="example">
-        <div class="code-copy">
-          <p class="eyebrow">A tiny example</p>
-          <h2>Two files.<br><span>That’s a website.</span></h2>
-          <p>Create <code>index.html</code> and <code>styles.css</code> in the same folder. The HTML links to the CSS, and the browser displays the result.</p>
-          <p class="code-note"><span aria-hidden="true">✦</span> This example uses HTML and CSS only—there’s no JavaScript.</p>
-        </div>
-        <div class="code-samples">
-          <div class="code-window">
-            <div class="code-window-bar"><span class="file-dot html-dot"></span> index.html</div>
-            <pre><code><span class="code-tag">&lt;h1&gt;</span>Hello, world!<span class="code-tag">&lt;/h1&gt;</span>
-<span class="code-tag">&lt;p&gt;</span>My first website.<span class="code-tag">&lt;/p&gt;</span>
-<span class="code-tag">&lt;link</span> rel="stylesheet"
-  href="styles.css"<span class="code-tag">&gt;</span></code></pre>
-          </div>
-          <div class="code-window">
-            <div class="code-window-bar"><span class="file-dot css-dot"></span> styles.css</div>
-            <pre><code><span class="code-selector">body</span> {
-  <span class="code-property">font-family</span>: sans-serif;
-  <span class="code-property">color</span>: #245c45;
-  <span class="code-property">padding</span>: 2rem;
-}</code></pre>
-          </div>
-        </div>
-      </section>
-
-      <section class="closing" id="get-started">
-        <p class="eyebrow">Keep it simple. Keep building.</p>
-        <h2>Start with a line<br>of HTML.</h2>
-        <a class="button button-light" href="#example">Explore the example <span aria-hidden="true">→</span></a>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <a class="brand" href="#home">
-        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
-        <span>HTML <span class="brand-plus">+</span> CSS</span>
-      </a>
-      <p>A beginner-friendly guide to building for the web.</p>
-      <a href="#home">Back to top ↑</a>
-    </footer>
+    <script src="script.js"></script>
+    <nav class="container">
+      <a href="">Home</a>
+      <a href="">Gallery</a>
+      <a href="">About</a>
+    </nav>
+    <div id="banner" class="container column center">
+      <h1>Secret of Web Development</h1>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+    <div id="main" class="container">
+      <div id="body" class="container column">
+        <img src="webicons.png" width="300px" style="margin:0 auto">
+        <p>Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an intranet (a private network).[1] Web development can range from developing a simple single static page of plain text to complex Web-based Internet applications (Web apps), electronic businesses, and social network services. A more comprehensive list of tasks to which Web development commonly refers, may include Web engineering, Web design, Web content development, client liaison, client-side/server-side scripting, Web server and network security configuration, and e-commerce development.</p>
+        <a href="https://en.wikipedia.org/wiki/Web_development">Source</a>
+      </div>
+      <div id="links" class="container column">
+        <img src="webicons1.png" width="100px">
+        <img src="webicons2.png" width="100px">
+        <img src="webicons3.png" width="100px">
+      </div>
+    </div>
+    <div id="footer" class="container">
+      @Copyright 2020
+    </div>
   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </body>
 </html>
