@@ -1,100 +1,35 @@
-html, body{
-  height:100%;
-  font-family:Arial;
-  margin:0 auto;
-}
-a{
-  text-decoration:none;
-  color:blue;
-}
-
-.container {
-  display: flex;
-}
-
-.column {
-  flex-direction: column;
-}
-.center {
-  align-items: center;
-  justify-content: center;
+nav{
+  padding:5px
 }
 nav a{
-  flex: 1;
+  color:black;
+  margin:0 10px 0 10px;
+  display:inline-block;
+  width:20%;
   text-align:center;
-  padding:10px;
-  transition:0.5s
-}
-nav a:hover{
-    background-color:blue;
-    color:white;
-    transition:0.5s;
-}
-#banner{
-  background-color:blue;
-  color:white;
-  padding:20px;
-}
-#body{
-  padding:50px;
-}
-#links{
-  padding:50px;
-}
-#footer{
-  background-color:blue;
-  color:white;
-  padding:20px;
 }
 
-#font{
-  font-size:20px;
+* {
+  font-family: Arial, sans-serif;
+} 
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  border-bottom: 2px solid black;
+}
+.banner {
+  background-color: blue;
+  color: white;
+}
+.main {
+  font-size: 18px;
+  color: blue;
+}
+#flex {
+  justify-content: flex;
+}
+.paragraphone {
+  font-size: 35px;
   font-style: italic;
 }
-
-
-
-
-#TEXT{
-   display: flex;
-   align-items: center;
-   justify-contents: center;
-   flex-direction: column;
-   font-family: 'Franklin Gothic Medium';
-   color:rgb(30, 27, 26)
-  
-}
-
-
-body{
-   background-color: rgb(252, 163, 31);
-}
-
-
-#IMG{
-   display: flex;
-   flex: 1;
-   align-items: center;
-   justify-content: center;
-}
-
-
-#INFO{
-   display: flex;
-   font-size:xx-large;
-   font-family: 'Franklin Gothic Medium';
-   color:rgb(244, 49, 24)
-  
-}
-
-
-p{
-   display: flex;
-   font-size:xx-large;
-   font-family: 'Franklin Gothic Medium';
-   color:rgb(255, 19, 19)
-}
-
-
-
-
